@@ -91,7 +91,7 @@
         <button onclick="order_alert()" type="button" class="btn btn-primary">주문하기</button>
     </div>
     <script>
-        function isMobile(phoneNum) {
+        function isMobile(phoneNum) {// 출처: https://holybell87.tistory.com/22#.XnhlqIj7RPY [K's 개발이야기]
             var regExp = /(01[016789])([1-9]{1}[0-9]{2,3})([0-9]{4})$/; var myArray; if (regExp.test(phoneNum)) {
                 myArray = regExp.exec(phoneNum); // console.log(myArray[1]); // console.log(myArray[2]); // console.log(myArray[3]);
                 return true;
@@ -100,7 +100,7 @@
             }
         }
 
-        // 출처: https://holybell87.tistory.com/22#.XnhlqIj7RPY [K's 개발이야기]
+        
         function order_alert() {
             let name = $('#name').val();
             let order_value = $('#inputGroupSelect01').val();
