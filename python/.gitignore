@@ -108,7 +108,7 @@ dmypy.json
 .pyre/
 
 # pycharm ide
-.idea
+.idea/
 
 # venv
 venv/
